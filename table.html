@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card With Table</title>
+    <style>
+        .card-wrapper{
+            box-shadow: #929292 2px 2px 3px 3px;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 3px;
+            padding: 10px;
+        }
+        .card {
+            width: 100%;
+        }
+
+        .table-head-cell {
+            color:#0081C3;
+            text-align: center;
+            padding: 8px;
+            /*border: 1px solid #2ab3ff;*/
+
+
+        }
+        .table-data-cell {
+            text-align: center;
+            padding: 8px;
+            border: 1px solid #2ab3ff;
+
+
+        }
+
+        .table-head-row {
+            background-color: #ffffff;
+            border: 1px solid #2ab3ff;
+        }
+        .table-data-row {
+            background-color: #eee;
+            border: 1px solid #2ab3ff;
+        }
+        .table {
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div class="card-wrapper">
+        <div class="card">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <h3 class="table-title">Project Cost & Additional Options</h3>
+                        <!--<hr>-->
+                        <div class="table-wrapper">
+                            <table class="table" align="center" cellspacing="0" >
+                                <tr class="table-head-row">
+                                    <th class="table-head-cell">
+                                        <p>Liner Install</p>
+                                    </th>
+
+                                    <th class="table-head-cell">
+                                        <p>Pool Liner</p>
+                                    </th>
+
+                                    <th class="table-head-cell">
+                                        <p>Wall Repairs</p>
+                                    </th>
+
+                                    <th class="table-head-cell">
+                                        <span>Wall Foam</span>
+                                        <span>Optional</span>
+
+                                    </th>
+
+                                    <th class="table-head-cell">
+                                        <span>Bottom Padding</span>
+                                        <span>Optional</span>
+
+                                    </th>
+                                </tr>
+                                <tr class="table-data-row">
+                                    <td class="table-data-cell">
+                                        <p>$100.00</p>
+                                    </td>
+
+                                    <td class="table-data-cell">
+                                        <p>$100.00</p>
+                                    </td>
+
+                                    <td class="table-data-cell">
+                                        <p>$100.00</p>
+                                    </td>
+
+                                    <td class="table-data-cell">
+                                        <p>$100.00</p>
+                                    </td>
+
+                                    <td class="table-data-cell">
+                                        <p>$100.00</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>

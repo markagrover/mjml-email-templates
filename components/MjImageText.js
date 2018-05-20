@@ -28,7 +28,7 @@ export default class MjImageText extends BodyComponent {
   static defaultAttributes = {
     'background-color': null,
     'image-position': 'right',
-    'color': 'white',
+    'color': 'black',
     'font-size': '10px',
     'image-padding': 0,
     'image-src': null,

@@ -10,9 +10,31 @@ import { registerComponent } from 'mjml-core'
 import MjLayout from './components/MjLayout'
 import MjImageText from './components/MjImageText'
 import MjBasicComponent from './components/MjBasicComponent'
+import MjTestComponent1 from './components/MjTestComponent1'
+import MjParagraph from './components/MjParagraph'
+import MjLogo from './components/MjLogo'
+import MjNav from './components/MjNav'
+import MjFooterArea from './components/MjFooterArea'
+import MjAddress from './components/MjAddress'
+import MjLinerImage from './components/MjLinerImage'
+import MjLiners from './components/MjLiners'
+import MjWallFoam from './components/MjWallFoam'
+import MjBottomPad from './components/MjBottomPad'
+import MjPricingTableWallRepairs from './components/MjPricingTableWallRepairs'
 registerComponent(MjBasicComponent)
 registerComponent(MjImageText)
 registerComponent(MjLayout)
+registerComponent(MjTestComponent1)
+registerComponent(MjParagraph)
+registerComponent(MjLogo)
+registerComponent(MjNav)
+registerComponent(MjFooterArea)
+registerComponent(MjAddress)
+registerComponent(MjLinerImage)
+registerComponent(MjLiners)
+registerComponent(MjWallFoam)
+registerComponent(MjBottomPad)
+registerComponent(MjPricingTableWallRepairs)
 
 // Import and register your components here
 

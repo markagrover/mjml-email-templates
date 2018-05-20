@@ -1,26 +1,67 @@
 <mjml>
-  <mj-body>
+  <mj-head>
+    <mj-style inline="inline">
+      .table-head-cell {
+      color:#0081C3;
+      text-align: center;
+      padding: 8px;
+      /*border: 1px solid #2ab3ff;*/
 
-    <!-- The first component, mj-basic-component renders as a column child -->
+
+      }
+      .table-data-cell {
+      text-align: center;
+      padding: 8px;
+      border: 1px solid #2ab3ff;
+
+
+      }
+
+      .table-head-row {
+      background-color: #ffffff;
+      border: 1px solid #2ab3ff;
+      }
+      .table-data-row {
+      background-color: #eee;
+      border: 1px solid #2ab3ff;
+      }
+      .table {
+      border-collapse: collapse;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+        <mj-logo/>
+    </mj-section>
     <mj-section>
       <mj-column>
-        <mj-basic-component color="green">
-          I'm among stars
-        </mj-basic-component>
+        <mj-nav align="center"/>
       </mj-column>
     </mj-section>
 
-    <!-- The second component, mj-image-text renders as a section -->
-    <mj-image-text background-color="#DD685B" image-src="https://mjml.io/assets/img/mjml-logo.png" image-width="100px" font-size="24px" image-position="left">
-      MJML rules!
-    </mj-image-text>
-
-    <!-- The third component, mj-layout, also renders as a section -->
-    <mj-layout>
-      <mj-text color="blue" font-size="10px">
-        A super nice layout component
-      </mj-text>
-    </mj-layout>
-
+    <mj-section>
+      <mj-column>
+        <mj-wall-foam></mj-wall-foam>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-bottom-pad></mj-bottom-pad>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-liners>Choose Your Liner Print</mj-liners>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-pricing-table-wall-repairs></mj-pricing-table-wall-repairs>
+      </mj-column>
+    </mj-section>
+  <mj-section>
+    <mj-footer-area/>
+  </mj-section>
   </mj-body>
 </mjml>
