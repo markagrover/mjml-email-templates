@@ -41,12 +41,14 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text line-height="22px" letter-spacing="1px" align="center" font-size="16px">Thank you for your interest in having us install your new pool liner.</mj-text>
+        <mj-text line-height="22px" letter-spacing="1px" font-size="16px">Good Afternoon,</mj-text>
+
+        <mj-text line-height="22px" letter-spacing="1px" font-size="16px">Thank you for your interest in having us install your new pool liner.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-included-with-project></mj-included-with-project>
+        <mj-included-with-liner></mj-included-with-liner>
       </mj-column>
     </mj-section>
     <mj-section>
