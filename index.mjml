@@ -39,7 +39,21 @@
         <mj-nav align="center"/>
       </mj-column>
     </mj-section>
-
+    <mj-section>
+      <mj-column>
+        <mj-text line-height="22px" letter-spacing="1px" align="center" font-size="16px">Thank you for your interest in having us install your new pool liner.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-included-with-project></mj-included-with-project>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text container-background-color="#0081C3" line-height="22px" letter-spacing="1px" align="center" font-size="16px" color="white">Please take a few mins to view the rest of the email.</mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section>
       <mj-column>
         <mj-wall-foam></mj-wall-foam>

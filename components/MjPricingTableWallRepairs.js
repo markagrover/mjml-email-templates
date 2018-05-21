@@ -12,7 +12,7 @@ export default class MjPricingTableWallRepairs extends BodyComponent {
     render(){
         return this.renderMJML(`
                                 <mj-section>
-                                    <mj-text align="center" font-size="22px" color="${colors.leadFont}">Project Cost and Additional Optional Supplies</mj-text>
+                                    <mj-text align="center" font-size="22px" color="${colors.leadFont}">Project Cost & Optional Supplies</mj-text>
                                 <mj-spacer height="20px"/>
                                 <mj-table class="table" align="center" cellspacing="0" >
                                     <tr class="table-head-row">
@@ -42,15 +42,15 @@ export default class MjPricingTableWallRepairs extends BodyComponent {
                                     </tr>
                                     <tr class="table-data-row">
                                         <td class="table-data-cell">
-                                            $100.00
+                                            $800
                                         </td>
     
                                         <td class="table-data-cell">
-                                            $100.00
+                                            $459
                                         </td>
     
                                         <td class="table-data-cell">
-                                            $100.00
+                                            $350
                                         </td>
     
                                         <!--<td class="table-data-cell">-->
@@ -58,7 +58,7 @@ export default class MjPricingTableWallRepairs extends BodyComponent {
                                         <!--</td>-->
     
                                         <td class="table-data-cell">
-                                            $100.00
+                                            $270
                                         </td>
                                     </tr>
                                 </mj-table> 

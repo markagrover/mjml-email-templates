@@ -12,7 +12,7 @@ export default class MjWallFoam extends BodyComponent {
     renderWallFoam(){
         return this.renderMJML(
         `
-            <mj-image-text font-size="16px" image-src="https://ci3.googleusercontent.com/proxy/FPA8kp7A33WFECu32glkD2lGaOqKbFTL6u2sMoecR5lN0mtvqe8_0DuQksKuH5cCEy1o5KPw3ymSsXCjBdaCcGRGuLQgcs3wmIVK8w=s0-d-e1-ft#http://aquarianpoolandspa.com/ag_supplies/wallfoam.jpg">
+            <mj-image-text font-size="16px" image-width="125px" image-src="https://ci3.googleusercontent.com/proxy/FPA8kp7A33WFECu32glkD2lGaOqKbFTL6u2sMoecR5lN0mtvqe8_0DuQksKuH5cCEy1o5KPw3ymSsXCjBdaCcGRGuLQgcs3wmIVK8w=s0-d-e1-ft#http://aquarianpoolandspa.com/ag_supplies/wallfoam.jpg">
                 <div style="letter-spacing: 1px; line-height: 22px;">
                     <p>
                         Even if your wall is not rusty you should consider adding a wall pad to prevent the rusting from destroying your pool wall in the future. Not only does the foam pad prevent rusting. 

@@ -21,6 +21,7 @@ import MjLiners from './components/MjLiners'
 import MjWallFoam from './components/MjWallFoam'
 import MjBottomPad from './components/MjBottomPad'
 import MjPricingTableWallRepairs from './components/MjPricingTableWallRepairs'
+import MjIncludedWithProject from './components/MjIncludedWithProject'
 registerComponent(MjBasicComponent)
 registerComponent(MjImageText)
 registerComponent(MjLayout)
@@ -35,6 +36,7 @@ registerComponent(MjLiners)
 registerComponent(MjWallFoam)
 registerComponent(MjBottomPad)
 registerComponent(MjPricingTableWallRepairs)
+registerComponent(MjIncludedWithProject)
 
 // Import and register your components here
 
